@@ -6,6 +6,7 @@ AC_INIT([libdclass], [2.0.12], [dvanliere@wikimedia.org])
 AC_CONFIG_HEADERS([config.h])
 AM_INIT_AUTOMAKE
 AC_USE_SYSTEM_EXTENSIONS
+LT_INIT([disable-static])
 
 # Checks for programs.
 AC_PROG_AWK

@@ -21,5 +21,8 @@ override_dh_auto_configure:
 	autoreconf --install
 	dh_auto_configure
 
+override_install:
+	dh_install
+
 %:
 	dh $@
