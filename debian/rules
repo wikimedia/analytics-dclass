@@ -12,7 +12,8 @@
 # Uncomment this to turn on verbose mode.
 export DH_VERBOSE=1
 # include this to get proper JAVA_HOME
-include /usr/share/javahelper/java-vars.mk
+export JAVA_HOME=/usr/lib/jvm/default-java
+#include /usr/share/javahelper/java-vars.mk
 # This has to be exported to make some magic below work.
 export DH_OPTIONS
 
