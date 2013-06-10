@@ -22,4 +22,16 @@ libdclass-dev
 libdclass-jni
 
 
+Follow the following
+====================
+
+
+
+Have default-jdk as dep package
+===============================
+
+https://gist.github.com/ottomata/5752069
+http://www.debian.org/doc/manuals/maint-guide/dother.en.html#install
+
+
 

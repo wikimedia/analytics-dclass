@@ -1,17 +1,17 @@
-Source: libdclass
+Source: dclass
 Section: libdevel
 Maintainer: Stefan Petrea <stefan@garage-coding.com>
 Uploaders: Diederik van Liere <dvanliere@wikimedia.org>
-Build-Depends: debhelper (>= 7.0.50~)
+Build-Depends: debhelper (>= 7.0.50~), javahelper (>= 0.43)
 Standards-Version: 3.8.4
 Vcs-Git: git://github.com/wmf-analytics/dclass-kraken.git
 Homepage: http://github.com/wmf-analytics
 Priority: optional
 
 
-Package: libdclass-dev
+Package: libdclass0-dev
 Priority: optional
-Architecture: any
+Architecture: amd64
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: file
 Description: Device detection library written by Rezan Naghib
@@ -20,9 +20,9 @@ Description: Device detection library written by Rezan Naghib
  is to quickly and accurately match text against a large number
  of flexable patterns.
 
-Package: libdclass
+Package: libdclass0
 Priority: optional
-Architecture: any
+Architecture: amd64
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: file
 Description: Device detection library written by Rezan Naghib
