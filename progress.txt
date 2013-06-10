@@ -2,4 +2,24 @@
 
 Currently compiling our .so is done with:
 
-  git clean -d -f -x; autoheader; aclocal; libtoolize --automake ; automake --foreign --add-missing ; autoconf ; ./configure; make; 
+    git clean -d -f -x;
+    autoheader; 
+    aclocal; 
+    libtoolize --automake ; 
+    automake --foreign --add-missing ; 
+    autoconf ; 
+    ./configure; 
+    make; 
+
+
+Packages should be
+==================
+
+These packages should have the SONAMEs "libdclass0" , "libdclass0-dev" , "libdclass0-jni"
+
+libdclass
+libdclass-dev
+libdclass-jni
+
+
+
