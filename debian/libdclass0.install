@@ -1,1 +1,3 @@
-.libs/* /usr/lib
+.libs/libdclass.so.0.0.0 /usr/lib
+dtrees/openddr.dtree /usr/lib/libdclass
+dtrees/browser.dtree /usr/lib/libdclass
