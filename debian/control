@@ -12,7 +12,7 @@ Priority: optional
 Package: libdclass0-dev
 Priority: optional
 Architecture: amd64
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, libdclass0
 Suggests: file
 Description: Device detection library written by Rezan Naghib
  Useragent device detection library written in C to quickly
