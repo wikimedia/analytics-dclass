@@ -1,22 +1,124 @@
 dclass (2.0.14) wikimedia; urgency=low
 
+  [ Reza Naghibi ]
+  * 2.0.13 release
+
+  [ U-CABLE\rnaghi001c ]
+  * 2.0.14
+
+  [ Reza Naghibi ]
+  * 2.0.14
+  * 2.0.14
+  * 2.0.14
+  * 2.0.14
+  * 2.0.14
+  * 2.0.14
+  * 2.0.14
+  * regex escapes and groups
+  * optional groups
+  * cleanup
+  * java
+  * re-org
+  * java
+  * java
+  * java
+  * java
+  * cleanup
+  * core
+  * java
+  * java
+  * java
+  * java makefile
+  * java makefile
+  * java makefile
+  * java makefile
+  * whitespace
+  * core distance position rank
+  * position and ranking
+  * java
+  * position patterns
+  * java
+  * core
+  * java32
+  * core
+  * readme
+  * index comments
+  * core
+  * comments
+  * forward chaining
+  * forward chains
+  * java
+  * java synchronization
+  * jar file
+  * java
+  * core
+  * java libs
+  * java jar 2.1.1
+  * java build
+  * comments
+  * default comment
+  * makefiles
+  * readme
+  * varnish updates
+  * varnish
+  * 2.0 compatibility
+  * blackberry chain cleanup
+  * timespec
+  * 2.0.15
+  * openddr 1.16
+  * README
+  * readme
+  * comment
+  * readmes
+  * readme
+  * readme
+  * readme
+  * readme
+  * readme
+  * readme
+  * readme
+  * version
+  * openddr
+  * readme
+  * readme
+  * readme
+  * varnish
+  * timespec
+  * darwin
+  * shared objects
+  * jar
+  * nginx
+  * readme
+  * readme
+  * readme
+  * readme
+  * readme
+  * 2.2.0
+  * varnish example
+  * 2.2.0
+  * 2.2.1
+  * 2.2.1
+  * 2.2.1
+  * 2.2.1
+  * 2.2.1
+  * 2.2.1
+
   [ Petrea Corneliu Stefan ]
-  * added more things
-  * added gbp.conf
-  * more things
-  * master commit
-  * test
-  * added debian workflow steps
-  * added more info to DEBIAN.md
-  * added more steps to debian/rules
-  * added more steps to debian/rules
-  * added more steps to debian/rules
-  * added more steps to debian/rules
-  * more debian rules
+  * Added wikimedia specific files (our jni wrapper)
+  * added compiling instructions
+  * Added debian metadata
+  * Added debian metadata
+  * modified debian metadata further
+  * updated changelog
+  * added dirs file for binary package
+  * added files and dirs settings for binary package
+  * modified binary package
+  * added metadata for dev package
+  * added metadata for dev package
+  * added the metdata for the jni deb
+  * modified debian branch name
 
-  [ Stefan Petrea ]
-
- -- Stefan Petrea <stefan@garage-coding.com>  Mon, 03 Jun 2013 19:54:18 +0300
+ -- Stefan Petrea <stefan@garage-coding.com>  Wed, 12 Jun 2013 06:55:22 +0200
 
 dclass (2.0.13) wikimedia; urgency=low
 
@@ -99,7 +201,7 @@ dclass (2.0.13) wikimedia; urgency=low
   * re generated gitmodules
   * added symlink for git2deblogs
 
-  [ user ]
+  [ Stefan Petrea ]
   * Tag created for version 2.0.13
 
  -- Stefan Petrea <stefan@garage-coding.com>  Thu, 30 May 2013 22:49:15 +0300
