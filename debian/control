@@ -30,3 +30,15 @@ Description: Device detection library written by Rezan Naghib
  parse a browser's useragent string. The goal of this project
  is to quickly and accurately match text against a large number
  of flexable patterns.
+
+
+Package: libdclassjni0
+Priority: optional
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}, libdclass0
+Suggests: file
+Description: Device detection library written by Rezan Naghib
+ Useragent device detection library written in C to quickly
+ parse a browser's useragent string. The goal of this project
+ is to quickly and accurately match text against a large number
+ of flexable patterns.
