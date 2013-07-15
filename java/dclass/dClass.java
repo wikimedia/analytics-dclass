@@ -11,7 +11,7 @@ public class dClass
 
     static
     {
-        dClassLoader.load("dclassjava");
+        dClassLoader.load("dclassjni");
     }
 
     private native int init(String file);

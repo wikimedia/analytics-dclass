@@ -16,7 +16,7 @@ public class dClassMain
         int openddr=0;
         long count,total;
         long startn,diffn;
-        String loadFile="../dtrees/openddr.dtree";
+        String loadFile="/usr/share/libdclass/openddr.dtree";
         String outFile=null;
         String parameter=null;
         dClass di;

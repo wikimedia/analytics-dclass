@@ -9,18 +9,18 @@ public class dClassLoader
 {
     public static boolean load(String lib)
     {
-        if(sLoadLib(lib))
-            return true;
 
-        String os=detectOS();
+      System.out.println("[S] => dClassLoader.load()");
+      if(sLoadLib(lib) || sLoad(lib))
+        return true;
 
-        if(!os.isEmpty() && loadLibResource("/lib/",lib,os))
-            return true;
-
-        System.loadLibrary(lib);
-
-        return false;
+      return false;
     }
+
+    /*
+     * Load library from disk
+     *
+     */
 
     private static boolean sLoadLib(String lib)
     {
@@ -49,6 +49,12 @@ public class dClassLoader
 
         return true;
     }
+
+    /*
+     * Get .so from the jar and put it in a temporary file
+     * and then load it from there
+     *
+     */
 
     private static boolean loadLibResource(String path,String lib,String os)
     {
