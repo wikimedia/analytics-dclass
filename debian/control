@@ -1,0 +1,73 @@
+Source: dclass
+Section: libs
+Priority: optional
+Maintainer: Wikimedia Operations <ops@lists.wikimedia.org>
+Uploaders: Diederik van Liere <dvanliere@wikimedia.org>, Stefan Petrea <stefan@garage-coding.com>, Faidon Liambotis <faidon@wikimedia.org>
+Build-Depends: debhelper (>= 9), dh-autoreconf, dh-exec,
+  default-jdk | openjdk-6-jdk | openjdk-7-jdk
+Standards-Version: 3.9.3.1
+Vcs-Git: https://git.wikimedia.org/git/analytics/dclass.git
+Homepage: https://git.wikimedia.org/summary/analytics%2Fdclass
+
+Package: libdclass0
+Architecture: any
+Pre-Depends: multiarch-support
+Section: libs
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: libdclass-data
+Description: User-agent device detection library
+ User-agent device detection library written in C to quickly
+ parse a browser's useragent string. The goal of this project
+ is to quickly and accurately match text against a large number
+ of flexable patterns.
+
+Package: libdclass-data
+Section: libs
+Architecture: all
+Multi-Arch: foreign
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: User-agent device detection library (data files)
+ User-agent device detection library written in C to quickly
+ parse a browser's useragent string. The goal of this project
+ is to quickly and accurately match text against a large number
+ of flexable patterns.
+ .
+ This package contains the dTree database data files.
+
+Package: libdclass0-dev
+Section: libdevel
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libdclass0 (= ${binary:Version})
+Description: User-agent device detection library (development headers)
+ User-agent device detection library written in C to quickly
+ parse a browser's useragent string. The goal of this project
+ is to quickly and accurately match text against a large number
+ of flexable patterns.
+ .
+ This package contains the development headers for libdclass.
+
+Package: libdclass-jni
+Architecture: amd64
+Pre-Depends: multiarch-support
+Section: java
+Depends: ${shlibs:Depends}, ${misc:Depends}, libdclass0 (= ${binary:Version})
+Suggests: libdclass-java
+Description: User-agent device detection library (JNI bindings)
+ User-agent device detection library written in C to quickly
+ parse a browser's useragent string. The goal of this project
+ is to quickly and accurately match text against a large number
+ of flexable patterns.
+ .
+ This package contains the Java JNI bindings.
+
+Package: libdclass-java
+Section: java
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libdclass-jni (= ${binary:Version})
+Description: User-agent device detection library (Java bindings)
+ User-agent device detection library written in C to quickly
+ parse a browser's useragent string. The goal of this project
+ is to quickly and accurately match text against a large number
+ of flexable patterns.
+ .
+ This package contains the Java interface to the JNI bindings.

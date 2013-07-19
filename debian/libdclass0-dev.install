@@ -1,0 +1,4 @@
+usr/lib/*/libdclass.so
+src/dtree_client.h	usr/include/libdclass
+src/dclass_client.h	usr/include/libdclass
+src/openddr_client.h	usr/include/libdclass
